@@ -1,5 +1,4 @@
 ---
-layout: post
 author: Dimitris Dovinos
 title: "Γιατί επιλέξαμε το συνδρομητικό μοντέλο"
 date: 2014-12-30 19:27

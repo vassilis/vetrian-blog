@@ -1,5 +1,4 @@
 ---
-layout: post
 author: Dimitris Dovinos
 title: "Welcome to Vetrian. A bit of history"
 date: 2014-12-24 19:27
