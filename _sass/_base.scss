@@ -1,12 +1,14 @@
 
 
-@import url("http://fonts.googleapis.com/css?family=Open+Sans:700,300&subset=latin,greek");
+// @import url("http://fonts.googleapis.com/css?family=Open+Sans:700,300,400&subset=latin,greek");
+@import url("http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&subset=latin,greek");
 @import url("http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:700");
 
 
 body {
+  font-size: 100%;
   font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
+  // font-weight: 400;
   line-height: 1.8;
   margin: 0;
   background: #DFDFD3;
@@ -74,7 +76,7 @@ body {
     border-bottom: 1px #DFDFD3 solid;
   }
   h2 {
-    font: 400 1.5em/1 'Yanone Kaffeesatz', sans-serif;
+    font: 300 1.5em/1 'Open Sans Condensed', sans-serif;
     margin: 0;
   }
   a {
@@ -98,6 +100,9 @@ body {
   .post-meta {
     font-size: .8em;
   }
+  img {
+    max-width: 100%;
+  }
 }
 
 .post-header {
@@ -105,9 +110,13 @@ body {
   margin-bottom: 80px;
 }
 
+.post-image {
+  margin-top: -50px;
+}
+
 .post-title {
   margin: 0;
-  font: 400 2.8em/1 'Yanone Kaffeesatz', sans-serif;
+  font: 300 2.8em/1 'Open Sans Condensed', sans-serif;
 }
 
 .site-footer {
