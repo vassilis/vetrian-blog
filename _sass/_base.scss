@@ -131,15 +131,17 @@ body {
 }
 
 .site-footer {
-  background: #444;
+  background: darken(#DFDFD3, 10%);
   color: #FFF;
-  padding: 100px 30px;
+  margin-bottom: 100px;
+  font: 700 1.3em/1 'Open Sans Condensed', sans-serif;
   .wrapper {
-    max-width: 1000px;
+    line-height: 2;
+    max-width: 1060px;
     margin: 0 auto;
-    text-align: center;
+    padding: 30px;
     a {
-      color: #FFF;
+      color: #444;
       text-decoration: none;
       &:hover {
         text-decoration: underline;
