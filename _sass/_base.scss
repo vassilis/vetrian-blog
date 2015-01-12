@@ -11,7 +11,7 @@ body {
   // font-weight: 400;
   line-height: 1.8;
   margin: 0;
-  background: #DFDFD3;
+  background: #d9e0e7;
   color: #444;
   overflow-x: hidden;
   // &::after {
@@ -28,9 +28,9 @@ body {
 }
 
 .page-header {
-  background: darken(#DFDFD3, 10%);
+  background: darken(#d9e0e7, 10%);
   margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
   text-align: center;
   text-transform: uppercase;
   font-family: 'Yanone Kaffeesatz', sans-serif;
@@ -40,7 +40,7 @@ body {
   line-height: .6;
   letter-spacing: 5px;
   a {
-    color: #DFDFD3;
+    color: #d9e0e7;
     position: relative;
     top: -3px;
     text-decoration: none;
@@ -59,12 +59,16 @@ body {
   padding: 0 30px;
 }
 
-.container {
+.main {
+  position: relative;
+  z-index: 1;
   background: #FFF;
   max-width: 1000px;
-  margin: 0 auto 150px;
+  margin: 0 auto;
   padding: 30px;
   min-height: 600px;
+  box-shadow: 0 0 4px darken(#d9e0e7, 20%);
+  border-radius: 2px;
 }
 
 .post-list {
@@ -73,9 +77,9 @@ body {
   max-width: 600px;
   padding: 100px 0;
   li {
-    padding: 15px;
+    padding: 15px 15px 30px;
     margin-bottom: 30px;
-    border-bottom: 1px #DFDFD3 solid;
+    border-bottom: 2px rgba(0,39,59,.08) solid;
     &:last-child {
       border-bottom: 0;
     }
@@ -83,18 +87,22 @@ body {
   h2 {
     font: 700 1.5em/1 'Open Sans Condensed', sans-serif;
     margin: 0 0 15px 0;
-  }
-  a {
-    color: #444;
-    text-decoration: none;
-    &:hover {
-      text-decoration: underline;
+    a {
+      color: #444;
     }
   }
   .post-meta {
     float: right;
-    color: #DFDFD3;
+    color: #AAA;
     font-size: .8em;
+  }
+}
+
+a {
+  color: #00C0C0;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
   }
 }
 
@@ -104,7 +112,7 @@ body {
   margin: 0 auto;
   max-width: 600px;
   .post-meta {
-    color: #DFDFD3;
+    color: #AAA;
     font: 700 1.3em/1 'Open Sans Condensed', sans-serif;
   }
   img {
@@ -131,15 +139,18 @@ body {
 }
 
 .site-footer {
-  background: darken(#DFDFD3, 10%);
-  color: #FFF;
-  margin-bottom: 100px;
+  position: relative;
+  z-index: 0;
+  max-width: 1040px;
+  background: lighten(#d9e0e7, 4%);
+  border-radius: 0 0 2px 2px;
+  margin: 0 auto 100px;
   font: 700 1.3em/1 'Open Sans Condensed', sans-serif;
   .wrapper {
+    max-width: 600px;
     line-height: 2;
-    max-width: 1060px;
     margin: 0 auto;
-    padding: 30px;
+    padding: 60px 30px;
     a {
       color: #444;
       text-decoration: none;
