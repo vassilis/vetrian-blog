@@ -67,8 +67,8 @@ body {
   margin: 0 auto;
   padding: 30px;
   min-height: 600px;
-  box-shadow: 0 0 4px darken(#d9e0e7, 20%);
-  border-radius: 2px;
+  border: 2px darken(#d9e0e7, 10%) solid;
+  border-radius: 4px;
 }
 
 .post-list {
