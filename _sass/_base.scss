@@ -2,13 +2,7 @@
 
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:700,300,400&subset=latin,greek");
 @import url("http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&subset=latin,greek");
-@import url("http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:700");
-
-@mixin borders {
-  border: 2px rgba(0,39,59,.08) solid;
-  border-radius: 4px;
-}
-
+@import url("http://fonts.googleapis.com/css?family=Lobster");
 
 body {
   box-sizing: border-box;
@@ -17,52 +11,38 @@ body {
   font-weight: 400;
   line-height: 1.8;
   margin: 0;
-  background: #FAFAFA;
+  background: #EAEDEE;
   color: #444;
   overflow-x: hidden;
 }
 
 .page-header {
-  background: rgba(0,39,59,.08);
-  margin-top: 50px;
-  margin-bottom: 80px;
+  display: inline-block;
+  margin: 0 0 100px;
+  padding: 8px 20px 10px;
+  border-radius: 0 0 4px 4px;
+  background: #EAEDEE;
   text-align: center;
-  text-transform: uppercase;
-  font-family: 'Yanone Kaffeesatz', sans-serif;
-  font-weight: 700;
-  white-space: nowrap;
-  overflow: hidden;
-  line-height: .6;
-  letter-spacing: 5px;
+  font-family: 'Lobster', sans-serif;
+  font-size: 2em;
   a {
-    color: #FAFAFA;
-    position: relative;
-    top: -3px;
-    text-decoration: none;
+    color: #444;
+    text-decoration: none !important;
+    &:hover {
+      color: #00C0C0;
+    }
+  }
+  @media only screen and (max-width: 767px) {
+    font-size: 5em;
   }
 }
 
-.tagline {
-  line-height: 1;
-  font-family: 'Yanone Kaffeesatz', sans-serif;
-  font-size: 2em;
-  color: #FFF;
-  position: relative;
-  top: 0;
-  max-width: 1060px;
-  margin: 0 auto;
-  padding: 0 30px;
-}
-
 .main {
-  position: relative;
-  z-index: 1;
   background: #FFF;
   max-width: 1000px;
   margin: 0 auto;
-  padding: 30px;
+  padding: 0 30px 30px;
   min-height: 600px;
-  @include borders;
 }
 
 .post-list {
@@ -73,7 +53,7 @@ body {
   li {
     position: relative;
     padding: 0;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
     &:last-child {
       border-bottom: 0;
     }
@@ -155,18 +135,17 @@ a {
 }
 
 .site-footer {
-  background: #FFF;
+  background: url("/img/bg.png") 100% 0 no-repeat #FFF;
   position: relative;
   z-index: 0;
-  max-width: 1060px;
-  margin: 100px auto;
+  max-width: 1000px;
+  padding: 100px 30px 300px;
+  margin: 2px auto 0;
   font: 700 1.3em/1 'Open Sans Condensed', sans-serif;
-  @include borders;
   .wrapper {
     max-width: 600px;
     line-height: 2;
     margin: 0 auto;
-    padding: 60px 0;
     a {
       color: #444;
       text-decoration: none;
