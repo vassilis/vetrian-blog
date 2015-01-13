@@ -1,6 +1,6 @@
 ---
 author: Βασίλης Τερζόπουλος
-title: Ανεβάζωντας ταχύτητα
+title: Ανεβάζοντας ταχύτητα
 date: 2015-01-13
 comments: true
 image: horse1.png
