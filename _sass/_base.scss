@@ -78,7 +78,7 @@ body {
   padding: 100px 0;
   li {
     position: relative;
-    padding: 15px 15px 30px;
+    padding: 15px 0 30px;
     margin-bottom: 30px;
     &:last-child {
       border-bottom: 0;
@@ -152,6 +152,8 @@ a {
   max-width: 1060px;
   margin: 100px auto;
   font: 700 1.3em/1 'Open Sans Condensed', sans-serif;
+  border: 2px #EEE solid;
+  border-radius: 4px;
   .wrapper {
     max-width: 600px;
     line-height: 2;
