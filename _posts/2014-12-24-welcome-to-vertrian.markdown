@@ -3,7 +3,7 @@ author: Dimitris Dovinos
 title: "Welcome to Vetrian. A bit of history"
 date: 2014-12-24 19:27
 comments: true
-image: "10.jpg"
+image: "dog1.png"
 ---
 
 Δεν είμαστε κτηνιάτροι. Είμαστε προγραμματιστές. Για την ακρίβεια είμαστε μηχανικοί. Φτιάχνουμε πράγματα για να τα χρησιμοποιήσουν άλλοι και να κάνουν την δουλειά τους ευκολότερα.
