@@ -9,7 +9,7 @@ layout: default
     {% endif %}
     <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-meta">
-      {{ page.date | date: "%d.%m.%Y" }}
+      {{ page.date | date: "%d/%m/%Y" }}
       {% if page.author %} • {{ page.author }}{% endif %}
       {% if page.meta %} • {{ page.meta }}{% endif %}
     </p>
